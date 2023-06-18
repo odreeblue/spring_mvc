@@ -1,4 +1,0 @@
-#Tomcat publish data
-#Mon Jun 05 17:16:35 KST 2023
-org.eclipse.jst.jee.server\:/binary\:/Users/gimchan-yeong/.m2/repository/org/springframework/spring-web/6.0.9/spring-web-6.0.9.jar=WEB-INF/lib/spring-web-6.0.9.jar
-org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\CY-Kim\\.m2\\repository\\org\\springframework\\spring-web\\6.0.9\\spring-web-6.0.9.jar=WEB-INF/lib/spring-web-6.0.9.jar

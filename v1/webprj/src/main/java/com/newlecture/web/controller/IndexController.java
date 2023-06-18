@@ -5,13 +5,19 @@ import org.springframework.web.servlet.mvc.Controller;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+//import javax.servlet.http.HttpServletRequest;
+//import javax.servlet.http.HttpServletResponse;
 
 public class IndexController implements Controller{
 
 	@Override
 	public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		// TODO Auto-generated method stub
-		return null;
+		System.out.println("index controller");
+		ModelAndView mv = new ModelAndView();
+		mv.addObject("data", "Hello Spring MVC~");
+		mv.setViewName("/WEB-INF/view/index.jsp");
+		return mv;
 	}
 
 }

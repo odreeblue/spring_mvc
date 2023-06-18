@@ -1,3 +1,5 @@
 INDEX VERSION 1.132
+/Users/gimchan-yeong/Desktop/Spring_MVC/v2/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1668057958.index
+/webprj/src/main/java
 D:\KimChanYeong\Project\020_Spring_MVC\v2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1798225894.index
 \webprj\src\main\java

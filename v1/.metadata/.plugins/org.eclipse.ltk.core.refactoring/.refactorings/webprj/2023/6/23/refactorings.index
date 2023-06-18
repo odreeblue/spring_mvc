@@ -6,3 +6,15 @@
 1685944168058	Delete element
 1685946081390	Move 'web.xml' to 'WEB-INF'
 1685952979921	Move 'web.xml' to 'view'
+1686379557205	Move 'index.jsp' to 'WEB-INF'
+1686379578304	Move 2 resources to 'WEB-INF'
+1686382599862	Move 'index.jsp' to 'webapp'
+1686382604224	Delete element
+1686382691459	Move 'index.jsp' to 'view'
+1686383324033	Move 'index' to 'webapp'
+1686385059046	Move 'index' to 'WEB-INF'
+1686385092605	Move 'index' to 'webapp'
+1686387739064	Move 2 resources to 'config'
+1686392986249	Move 'web.xml' to 'WEB-INF'
+1686393003311	Move 'dispatcher-servlet.xml' to 'WEB-INF'
+1686393035220	Delete element
