@@ -5,6 +5,10 @@ import org.springframework.stereotype.Component;
 //import org.springframework.web.servlet.mvc.Controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import java.io.IOException;
+import java.io.PrintWriter;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -25,14 +29,17 @@ public class HomeController {
 //		return mv;
 //	}
 	@RequestMapping("/index")
-	public String index() {
+	@ResponseBody
+	public String index(HttpServletResponse response) {
+		return "Hello Index 1";
 		
-		return "root.index";
+		
+		//return "root.index";
 		
 	}
-	@RequestMapping("/help")
-	public void help() {
-		
-	}
+//	@RequestMapping("/help")
+//	public void help() {
+//		
+//	}
 
 }
