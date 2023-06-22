@@ -29,12 +29,12 @@ public class HomeController {
 //		return mv;
 //	}
 	@RequestMapping("/index")
-	@ResponseBody
+	//@ResponseBody
 	public String index(HttpServletResponse response) {
-		return "Hello Index 1";
+		//return "Hello Index 1";
 		
 		
-		//return "root.index";
+		return "root.index";
 		
 	}
 //	@RequestMapping("/help")

@@ -20,7 +20,7 @@ public class NoticeController {
 	private NoticeService noticeService;
 	
 	@RequestMapping("list")
-	public String list(@RequestParam("p") String page) {
+	public String list(@RequestParam(name="p",defaultValue="1") String page) {
 		//String p = request.getParameter("p");
 		System.out.println("page:"+page);
 		try {
